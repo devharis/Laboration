@@ -7,15 +7,22 @@
 </head>
 
 <body>
-    <input type="radio" name="group1" value="U" checked />Underkänd
-    <input type="radio" name="group1" value="G" />Godkänd
-    <input type="radio" name="group1" value="VG" />Väl godkänd
-
-    <p></p>
-
-    <input type="checkbox" name="g1[]" value="C" checked />Coca-cola
-    <input type="checkbox" name="g1[]" value="L" />Loka
-    <input type="checkbox" name="g1[]" value="F" checked />Fanta
+    <form action="">
+        <fieldset>
+            <legend>Personlig information</legend>
+            <label for="firstname">Förnamn: </label>
+            <input type="text" name="firstname" />
+            <label for="lastname">Efternamn: </label>
+            <input type="text" name="lastname" />
+        </fieldset>
+        <fieldset>
+            <legend>Fakturauppgifter</legend>
+            <label for="invoicenr">Fakturanummer: </label>
+            <input type="text" name="invoicenr" />
+            <label for="address">Adress: </label>
+            <input type="text" name="address" />
+        </fieldset>
+    </form>
 </body>
 
 </html>
