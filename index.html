@@ -5,34 +5,14 @@
         <title>Index - Standout</title>
     </head>
     <body>
-      <table border="1">
-         <thead>
-             <tr>
-                 <th>Points</th>
-                 <th>Team</th>
-                 <th>Win</th>
-                 <th>Losses</th>
-             </tr>
-         </thead>
-         <tfoot>
-             <tr>
-                 <td colspan="4">Uppdaterat för 1 min sedan.</td>
-             </tr>
-         </tfoot>
-         <tbody>
-             <tr>
-                 <td>1</td>
-                 <td>Man City</td>
-                 <td>5</td>
-                 <td>0</td>
-             </tr>
-               <tr>
-                 <td>2</td>
-                 <td>Kalmar FF</td>
-                 <td>2</td>
-                 <td>1</td>
-             </tr>
-         </tbody>
-      </table>
+      <form action="" method="POST">
+          <!-- Formulärkontroller -->
+          <input type="text" name="username" placeholder="Användarnamn" />
+          <input type="password" name="password" placeholder="Lösenord" />
+          
+          <input type="hidden" value="5x10" />
+          
+          <input type="submit" value="Skicka!" />
+      </form>
     </body>
 </html>
